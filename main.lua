@@ -13,7 +13,7 @@ function CustomErrors.new(Info)
     local Syntax = Info.Syntax;
     local ErrorCode = #CustomErrors.Errors + 1;
     local SetErrorInENV = Info.SetErrorInENV or false
-    local TerminateThread = Info.TerminateThread or false
+    local TerminateThread = Info.TerminateThread or true
     local Callback = Info.Callback or function() return true end
 
     local self = setmetatable({
