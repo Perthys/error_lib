@@ -15,3 +15,7 @@ local a = CustomErrors.new({
 
 Errors.DICK_LIMIT_REACHED(100, 100)
 ```
+
+```lua
+local CustomErrors = loadstring(game:HttpGet("https://raw.githubusercontent.com/Perthys/error_lib/main/main.lua"))()
+```
