@@ -14,6 +14,8 @@ local a = CustomErrors.new({
 }) 
 
 Errors.DICK_LIMIT_REACHED(100, 100)
+
+a(100,100)
 ```
 
 ```lua
